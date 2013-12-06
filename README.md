@@ -1,12 +1,6 @@
-Programming, Only Better
-========================
+The Mess We've Made
+===================
 
-For all the REPLs to work, you need the following commands available
-from the command line:
-
-* Java, Clojure: `java`
-* OCaml: `ocaml`
-* Haskell: `ghci`
-* JavaScript: `node`
-
-To evaluate the REPL buffer, use `C-s`.
+To run the slides with a working Standard ML REPL, install Node, NPM
+and SML/NJ, setup with `npm install` and serve the slide deck using
+`node run.js`. Eval the code on the REPL slide using `C-s`.
